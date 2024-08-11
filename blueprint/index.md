@@ -14,7 +14,7 @@ This Genesys Cloud Developer Blueprint provides an example of how to write a Lam
 ![Write user presence updates to DynamoDB](images/user-presence-dynamo.png "Write user presence updates to DynamoDB")
 
 * [Solution components](#solution-components "Goes to the Solutions components section")
-* [Software development kits (SDKs)](#software-development-kits--sdks "Goes to the Software development kits (SDKs) section")
+* [Software development kits](#software-development-kits "Goes to the Software development kits (SDKs) section")
 * [Prerequisites](#prerequisites "Goes to the Prerequisites section")
 * [Implementation steps](#implementation-steps "Goes to the Implementation steps section")
 * [Additional resources](#additional-resources "Goes to the Additional resources section")
@@ -30,7 +30,7 @@ This Genesys Cloud Developer Blueprint provides an example of how to write a Lam
 * **[Node.js](https://nodejs.org/en/ "Opens the NodeJs website")** - An open-source, cross-platform JavaScript runtime environment.
 * **[Python](https://www.python.org/ "Opens the Python website")** - An interpreted, high-level programming language that is used to quickly build modularized, object-oriented programs.
 
-## Software development kits (SDKS)
+## Software development kits
 
 * **[AWS SDK for Python (Boto3)](https://aws.amazon.com/sdk-for-python/ "Opens the AWS SDK for Python (Boto3) page on the Amazon website")** - Enables developers to build and deploy Python applications that integrate with AWS services. This blueprint uses Boto3 to write user presence updates to Amazon DynamoDB.
 * **[AWS SDK for JavaScript](https://aws.amazon.com/sdk-for-javascript/ "Opens the AWS SDK for JavaScript page on the Amazon website")** - Enables developers to build and deploy JavaScript applications that use AWS services. This blueprint uses the AWS SDK for JavaScript to write user presence updates to DynamoDB.
@@ -61,7 +61,7 @@ This Genesys Cloud Developer Blueprint provides an example of how to write a Lam
 ## Implementation steps
 
 * [Clone the repository that contains the project files](#clone-the-repository-that-contains-the-project-files "Goes to the Clone the repository containing the project files section")
-* [Enable the Amazon EventBridge Source integration in your Genesys Cloud account](#enable-the-amazon-eventbridge-source-integration-in-your-genesys-cloud-account "Goes to the Enable the Amazon EventBridge Source integration in your Genesys Cloud account section")
+* [Enable the Amazon EventBridge Source integration in your Genesys Cloud organization](#enable-the-amazon-eventbridge-source-integration-in-your-genesys-cloud-organization "Goes to the Enable the Amazon EventBridge Source integration in your Genesys Cloud account section")
 * [Configure your EventBridge software as a service (SaaS) integration](#configure-your-eventbridge-software-as-a-service--saas--integration "Goes to the Configure your EventBridge software as a service (SaaS) integration section")
 * [Edit the TypeScript config file](#edit-the-typescript-config-file "Goes to the Edit the TypeScript config file section")
 * [Build and deploy the application](#build-and-deploy-the-application "Goes to the Build and deploy the application section")
@@ -74,7 +74,7 @@ This Genesys Cloud Developer Blueprint provides an example of how to write a Lam
 
 ### Enable the Amazon EventBridge Source integration in your Genesys Cloud organization
 
-1. In Genesys Cloud, install an Amazon EventBridge Source integration. For more information, see [Install Amazon EventBridge integration from Genesys AppFoundry](https://help.mypurecloud.com/?p=228013 "Goes to the Install Amazon EventBridge integration from Genesys AppFoundry article") in the Genesys Cloud Resource Center.
+1. In Genesys Cloud, install an Amazon EventBridge Source integration. For more information, see [Install Amazon EventBridge integration](https://help.mypurecloud.com/?p=228013 "Goes to the Install Amazon EventBridge integration") in the Genesys Cloud Resource Center.
 
 2. Configure the integration with the following settings:
   * **AWS Account ID**: Your AWS account ID
